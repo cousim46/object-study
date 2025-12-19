@@ -6,9 +6,9 @@ public class Movie {
     private String title;
     private Duration runningTime;
     private Money fee;
-    private DisCountPolicy disCountPolicy;
+    private DiscountPolicy disCountPolicy;
 
-    public Movie(String title, Duration runningTime, Money fee, DisCountPolicy disCountPolicy) {
+    public Movie(String title, Duration runningTime, Money fee, DiscountPolicy disCountPolicy) {
         this.title = title;
         this.runningTime = runningTime;
         this.fee = fee;

@@ -1,3 +1,5 @@
+package ch01;
+
 public class TicketSeller {
 
     private TicketOffice ticketOffice;
